@@ -1,0 +1,17 @@
+[pull]
+	rebase = false
+[user]
+	email = k.kondratuk@fetchrewards.com
+	name = Kevin Kondratuk
+
+[url "git@bitbucket.org"]
+	insteadOf = https://bitbucket.org
+[url "git@bitbucket.org:fetchrewards"]
+	insteadOf = https://bitbucket.org/fetchrewards
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[init]
+	defaultBranch = main
