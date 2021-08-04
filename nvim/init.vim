@@ -20,6 +20,9 @@ Plug 'godlygeek/tabular'
 Plug 'mtth/scratch.vim'
 Plug 'kevinhui/vim-docker-tools'
 Plug 'dracula/vim'
+Plug 'junegunn/fzf'
+Plug 'junegunn/fzf.vim'
+Plug 'neoclide/coc.nvim', { 'branch': 'release' }
 
 call plug#end()
 
@@ -27,4 +30,5 @@ syntax enable
 colorscheme dracula
 au filetype go inoremap <buffer> . .<C-x><C-o>
 set tabstop=4
+set mouse=a
 let NERDTreeShowHidden=1
