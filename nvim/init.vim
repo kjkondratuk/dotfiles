@@ -31,4 +31,5 @@ colorscheme dracula
 au filetype go inoremap <buffer> . .<C-x><C-o>
 set tabstop=4
 set mouse=a
+set hidden
 let NERDTreeShowHidden=1
